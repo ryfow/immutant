@@ -59,10 +59,10 @@
 
     #+begin_src clojure
       ;; bind to the given port on the management interface
-      (clojure.repl/start-swank 4242)
+      (immutant.repl/start-swank 4242)
 
       ;; bind to the given port and interface
-      (clojure.repl/start-swank 4242 "127.0.0.1")
+      (immutant.repl/start-swank 4242 "127.0.0.1")
     #+end_src
 
 ** Connecting to Swank
